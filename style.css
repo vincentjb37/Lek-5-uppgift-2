@@ -1,0 +1,176 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 820px;
+    min-height: 635px;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+}
+
+.content {
+    width: 570px;
+    padding: 10px 20px;
+    border-right: 1px solid black;
+}
+
+.content h2 {
+    text-align: center;
+    font-family: Georgia, serif;
+    margin: 0 0 15px 0;
+    font-size: 24px;
+}
+
+.hero {
+    height: 160px;
+    border: 2px solid #D6001C;
+    border-radius: 4px;
+    background-image: url("img/snow_winter_trees.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+}
+
+.nav {
+    height: 42px;
+    border: 2px solid #D6001C;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px;
+    gap: 8px;
+}
+
+.logo-box {
+    height: 32px;
+    background: white;
+    border: 2px solid #333;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+
+.logo-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.sweclockers {
+    width: 125px;
+}
+
+.smhi {
+    width: 65px;
+}
+
+.rotten {
+    width: 125px;
+    gap: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+.rotten img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.hero h1 {
+    text-align: center;
+    font-family: "Mountains of Christmas", cursive;
+    font-size: 27px;
+    margin-top: 15px;
+    color: black;
+}
+
+.main {
+    height: 390px;
+    border: 2px solid #D6001C;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding: 3px 12px;
+    display: flex;
+    gap: 17px;
+}
+
+.aside {
+    width: 92px;
+    flex: 0 0 92px;
+    border: 2px solid #D6001C;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 3px;
+    gap: 8px;
+}
+
+.mdn {
+    width: 85px;
+    height: 35px;
+}
+
+.w3 {
+    width: 85px;
+    height: 35px;
+    margin-top: 7px;
+}
+
+.aside a {
+    color: #663399;
+    font-family: Georgia, serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+.article {
+    flex: 1;
+    min-width: 0;
+    border: 2px solid #D6001C;
+    border-radius: 4px;
+    padding: 0 2px;
+    font-family: Georgia, serif;
+    font-size: 12px;
+}
+
+.article p {
+    margin-top: 10px;
+    margin-bottom: 22px;
+}
+
+footer {
+    height: 18px;
+    border: 2px solid #D6001C;
+    border-radius: 4px;
+    margin-top: 5px;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 12px;
+}
+
+.instructions {
+    flex: 1;
+    padding: 5px 10px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.instructions p {
+    margin-bottom: 22px;
+}
